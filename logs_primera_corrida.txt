@@ -1,0 +1,448 @@
+[34mpoet-ttbar-j524k-filelist-template-2295103870: time="2023-05-17T22:44:43.347Z" level=info msg="sub-process exited" argo=true error="<nil>"[0m
+[31mpoet-ttbar-j524k-filelist-template-1453183612: time="2023-05-17T22:45:02.662Z" level=info msg="sub-process exited" argo=true error="<nil>"[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: Setting up CMSSW_7_6_7[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: WARNING: In non-interactive mode release checks e.g. deprecated releases, production architectures are disabled.[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: CMSSW should now be available.[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: This is a standalone image for CMSSW_7_6_7 slc6_amd64_gcc493.[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: Cloning into 'PhysObjectExtractorTool'...[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Local Products Rules ..... started[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Local Products Rules ..... done[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Entering Package PhysObjectExtractorTool/PhysObjectExtractor[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Creating project symlinks[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291:   src/PhysObjectExtractorTool/PhysObjectExtractor/python -> python/PhysObjectExtractorTool/PhysObjectExtractor[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: Entering library rule at PhysObjectExtractorTool/PhysObjectExtractor[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/ElectronAnalyzer.cc [0m
+[35mpoet-ttbar-j524k-prepare-template-1719090681: pip install vector hist mplhep coffea[0m
+[35mpoet-ttbar-j524k-prepare-template-1719090681: git clone https://github.com/HepUsfq2023/workshop2022-lesson-ttbarljetsanalysis-payload.git[0m
+[35mpoet-ttbar-j524k-prepare-template-1719090681: cd workshop2022-lesson-ttbarljetsanalysis-payload[0m
+[35mpoet-ttbar-j524k-prepare-template-1719090681: cp /mnt/vol/code/ntuples.json .[0m
+[35mpoet-ttbar-j524k-prepare-template-1719090681: python coffeaAnalysis_ttbarljets.py[0m
+[35mpoet-ttbar-j524k-prepare-template-1719090681: mv *root /mnt/vol[0m
+[35mpoet-ttbar-j524k-prepare-template-1719090681: time="2023-05-17T22:45:12.098Z" level=info msg="sub-process exited" argo=true error="<nil>"[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/FatjetAnalyzer.cc [0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/GenParticleAnalyzer.cc [0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: Setting up CMSSW_7_6_7[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: WARNING: In non-interactive mode release checks e.g. deprecated releases, production architectures are disabled.[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: CMSSW should now be available.[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: This is a standalone image for CMSSW_7_6_7 slc6_amd64_gcc493.[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: Cloning into 'PhysObjectExtractorTool'...[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/JetAnalyzer.cc [0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Local Products Rules ..... started[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Local Products Rules ..... done[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Entering Package PhysObjectExtractorTool/PhysObjectExtractor[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Creating project symlinks[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173:   src/PhysObjectExtractorTool/PhysObjectExtractor/python -> python/PhysObjectExtractorTool/PhysObjectExtractor[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: ------- copying files from src/PhysObjectExtractorTool/PhysObjectExtractor/scripts -------[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> copied merge_trees.py[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> copied ntuples-gen.py[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: Entering library rule at PhysObjectExtractorTool/PhysObjectExtractor[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/ElectronAnalyzer.cc [0m
+[34mpoet-ttbar-j524k-filelist-template-2255876646: time="2023-05-17T22:45:38.294Z" level=info msg="sub-process exited" argo=true error="<nil>"[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/MetAnalyzer.cc [0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/FatjetAnalyzer.cc [0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/MiniAODTriggerAnalyzer.cc [0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/MuonAnalyzer.cc [0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/GenParticleAnalyzer.cc [0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/PhotonAnalyzer.cc [0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/JetAnalyzer.cc [0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: Setting up CMSSW_7_6_7[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: WARNING: In non-interactive mode release checks e.g. deprecated releases, production architectures are disabled.[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: CMSSW should now be available.[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: This is a standalone image for CMSSW_7_6_7 slc6_amd64_gcc493.[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: Cloning into 'PhysObjectExtractorTool'...[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/SimpleEleMuFilter.cc [0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Local Products Rules ..... started[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Local Products Rules ..... done[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Entering Package PhysObjectExtractorTool/PhysObjectExtractor[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Creating project symlinks[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687:   src/PhysObjectExtractorTool/PhysObjectExtractor/python -> python/PhysObjectExtractorTool/PhysObjectExtractor[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: Entering library rule at PhysObjectExtractorTool/PhysObjectExtractor[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/ElectronAnalyzer.cc [0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/MetAnalyzer.cc [0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/SimpleTriggerAnalyzer.cc [0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/MiniAODTriggerAnalyzer.cc [0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/TauAnalyzer.cc [0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/FatjetAnalyzer.cc [0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/MuonAnalyzer.cc [0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/TriggObjectAnalyzer.cc [0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/PhotonAnalyzer.cc [0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/TriggerAnalyzer.cc [0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/GenParticleAnalyzer.cc [0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/SimpleEleMuFilter.cc [0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/VertexAnalyzer.cc [0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/JetAnalyzer.cc [0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Building edm plugin tmp/slc6_amd64_gcc493/src/PhysObjectExtractorTool/PhysObjectExtractor/src/PhysObjectExtractorToolPhysObjectExtractor/libPhysObjectExtractorToolPhysObjectExtractor.so[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: Leaving library rule at PhysObjectExtractorTool/PhysObjectExtractor[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: @@@@ Running edmWriteConfigs for PhysObjectExtractorToolPhysObjectExtractor[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: --- Registered EDM Plugin: PhysObjectExtractorToolPhysObjectExtractor[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: ------- copying files from src/PhysObjectExtractorTool/PhysObjectExtractor/scripts -------[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> copied merge_trees.py[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> copied ntuples-gen.py[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Leaving Package PhysObjectExtractorTool/PhysObjectExtractor[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Package PhysObjectExtractorTool/PhysObjectExtractor built[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Local Products Rules ..... started[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Local Products Rules ..... done[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: gmake[1]: Entering directory `/code/CMSSW_7_6_7'[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Creating project symlinks[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291:   src/PhysObjectExtractorTool/PhysObjectExtractor/python -> python/PhysObjectExtractorTool/PhysObjectExtractor[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Done python_symlink[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Compiling python modules python[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Compiling python modules src/PhysObjectExtractorTool/PhysObjectExtractor/python[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> All python modules compiled[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: @@@@ Refreshing Plugins:edmPluginRefresh[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/SimpleTriggerAnalyzer.cc [0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Pluging of all type refreshed.[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: >> Done generating edm plugin poisoned information[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: gmake[1]: Leaving directory `/code/CMSSW_7_6_7'[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: 2[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: # Conditions read from  CMS_CONDITIONS  via FrontierProd [0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/TauAnalyzer.cc [0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/MetAnalyzer.cc [0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/MiniAODTriggerAnalyzer.cc [0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: 18-May-2023 00:46:46 CEST  Initiating request to open file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/TTJets_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/00547C97-2FCC-E511-8D75-002590DB91D2.root[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/TriggObjectAnalyzer.cc [0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/MuonAnalyzer.cc [0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: %MSG-w XrdAdaptor:  file_open 18-May-2023 00:46:49 CEST pre-events[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: Data is served from cern.ch instead of original site eospublic[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: %MSG[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/TriggerAnalyzer.cc [0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: 18-May-2023 00:46:51 CEST  Successfully opened file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/TTJets_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/00547C97-2FCC-E511-8D75-002590DB91D2.root[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/PhotonAnalyzer.cc [0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/VertexAnalyzer.cc [0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Building edm plugin tmp/slc6_amd64_gcc493/src/PhysObjectExtractorTool/PhysObjectExtractor/src/PhysObjectExtractorToolPhysObjectExtractor/libPhysObjectExtractorToolPhysObjectExtractor.so[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: Leaving library rule at PhysObjectExtractorTool/PhysObjectExtractor[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: @@@@ Running edmWriteConfigs for PhysObjectExtractorToolPhysObjectExtractor[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/SimpleEleMuFilter.cc [0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: --- Registered EDM Plugin: PhysObjectExtractorToolPhysObjectExtractor[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Leaving Package PhysObjectExtractorTool/PhysObjectExtractor[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Package PhysObjectExtractorTool/PhysObjectExtractor built[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Local Products Rules ..... started[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Local Products Rules ..... done[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: gmake[1]: Entering directory `/code/CMSSW_7_6_7'[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Creating project symlinks[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173:   src/PhysObjectExtractorTool/PhysObjectExtractor/python -> python/PhysObjectExtractorTool/PhysObjectExtractor[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Done python_symlink[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Compiling python modules python[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Compiling python modules src/PhysObjectExtractorTool/PhysObjectExtractor/python[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> All python modules compiled[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: @@@@ Refreshing Plugins:edmPluginRefresh[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Pluging of all type refreshed.[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: >> Done generating edm plugin poisoned information[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: gmake[1]: Leaving directory `/code/CMSSW_7_6_7'[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: 2[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: # Conditions read from  CMS_CONDITIONS  via FrontierProd [0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/SimpleTriggerAnalyzer.cc [0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: HLTConfig has changed for this Run. . . [0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/TauAnalyzer.cc [0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: 18-May-2023 00:47:12 CEST  Initiating request to open file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/SMS-T1tttt_mGluino-1200_mLSP-800_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/4AD90BFB-9AD5-E511-99FB-B083FED76C6C.root[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: %MSG-w XrdAdaptor:  file_open 18-May-2023 00:47:14 CEST pre-events[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: Data is served from cern.ch instead of original site eospublic[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: %MSG[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: 18-May-2023 00:47:17 CEST  Successfully opened file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/SMS-T1tttt_mGluino-1200_mLSP-800_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/4AD90BFB-9AD5-E511-99FB-B083FED76C6C.root[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/TriggObjectAnalyzer.cc [0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/TriggerAnalyzer.cc [0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Compiling edm plugin /code/CMSSW_7_6_7/src/PhysObjectExtractorTool/PhysObjectExtractor/src/VertexAnalyzer.cc [0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: TrackerParametersESModule::produce(const PTrackerParametersRcd& iRecord)[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Building edm plugin tmp/slc6_amd64_gcc493/src/PhysObjectExtractorTool/PhysObjectExtractor/src/PhysObjectExtractorToolPhysObjectExtractor/libPhysObjectExtractorToolPhysObjectExtractor.so[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: Leaving library rule at PhysObjectExtractorTool/PhysObjectExtractor[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: @@@@ Running edmWriteConfigs for PhysObjectExtractorToolPhysObjectExtractor[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: --- Registered EDM Plugin: PhysObjectExtractorToolPhysObjectExtractor[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: ------- copying files from src/PhysObjectExtractorTool/PhysObjectExtractor/scripts -------[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> copied merge_trees.py[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> copied ntuples-gen.py[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Leaving Package PhysObjectExtractorTool/PhysObjectExtractor[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Package PhysObjectExtractorTool/PhysObjectExtractor built[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Local Products Rules ..... started[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Local Products Rules ..... done[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: gmake[1]: Entering directory `/code/CMSSW_7_6_7'[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Creating project symlinks[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687:   src/PhysObjectExtractorTool/PhysObjectExtractor/python -> python/PhysObjectExtractorTool/PhysObjectExtractor[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Done python_symlink[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Compiling python modules python[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Compiling python modules src/PhysObjectExtractorTool/PhysObjectExtractor/python[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> All python modules compiled[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: @@@@ Refreshing Plugins:edmPluginRefresh[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Pluging of all type refreshed.[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: >> Done generating edm plugin poisoned information[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: gmake[1]: Leaving directory `/code/CMSSW_7_6_7'[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: 2[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: # Conditions read from  CMS_CONDITIONS  via FrontierProd [0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: HLTConfig has changed for this Run. . . [0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: 18-May-2023 00:47:35 CEST  Initiating request to open file root://eospublic.cern.ch//eos/opendata/cms/Run2015D/DoubleEG/MINIAOD/08Jun2016-v1/00000/10447084-C86F-E611-AA78-0CC47A78A4B0.root[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: %MSG-w XrdAdaptor:  file_open 18-May-2023 00:47:38 CEST pre-events[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: Data is served from cern.ch instead of original site eospublic[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: %MSG[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: 18-May-2023 00:47:40 CEST  Successfully opened file root://eospublic.cern.ch//eos/opendata/cms/Run2015D/DoubleEG/MINIAOD/08Jun2016-v1/00000/10447084-C86F-E611-AA78-0CC47A78A4B0.root[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: HLTConfig has changed for this Run. . . [0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: TrackerParametersESModule::produce(const PTrackerParametersRcd& iRecord)[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: TrackerParametersESModule::produce(const PTrackerParametersRcd& iRecord)[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: HLTConfig has changed for this Run. . . [0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: 18-May-2023 01:14:44 CEST  Closed file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/TTJets_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/00547C97-2FCC-E511-8D75-002590DB91D2.root[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: 18-May-2023 01:14:44 CEST  Initiating request to open file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/TTJets_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/043D89DE-2FCC-E511-B2E9-0025907FD442.root[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: %MSG-w XrdAdaptor:  file_open 18-May-2023 01:14:46 CEST PostProcessEvent[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: Data is served from cern.ch instead of original site eospublic[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: %MSG[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: 18-May-2023 01:14:47 CEST  Successfully opened file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/TTJets_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/043D89DE-2FCC-E511-B2E9-0025907FD442.root[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: 18-May-2023 01:25:57 CEST  Closed file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/SMS-T1tttt_mGluino-1200_mLSP-800_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/4AD90BFB-9AD5-E511-99FB-B083FED76C6C.root[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: 18-May-2023 01:25:57 CEST  Initiating request to open file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/SMS-T1tttt_mGluino-1200_mLSP-800_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/54114638-AFD5-E511-86F3-782BCB40899C.root[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: %MSG-w XrdAdaptor:  file_open 18-May-2023 01:25:59 CEST PostProcessEvent[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: Data is served from cern.ch instead of original site eospublic[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: %MSG[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: 18-May-2023 01:26:00 CEST  Successfully opened file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/SMS-T1tttt_mGluino-1200_mLSP-800_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/54114638-AFD5-E511-86F3-782BCB40899C.root[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: HLTConfig has changed for this Run. . . [0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: 18-May-2023 01:58:59 CEST  Closed file root://eospublic.cern.ch//eos/opendata/cms/Run2015D/DoubleEG/MINIAOD/08Jun2016-v1/00000/10447084-C86F-E611-AA78-0CC47A78A4B0.root[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: 18-May-2023 01:58:59 CEST  Initiating request to open file root://eospublic.cern.ch//eos/opendata/cms/Run2015D/DoubleEG/MINIAOD/08Jun2016-v1/10000/00387F48-342F-E611-AB5D-0CC47A4D76AC.root[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: %MSG-w XrdAdaptor:  file_open 18-May-2023 01:59:01 CEST PostProcessEvent[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: Data is served from cern.ch instead of original site eospublic[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: %MSG[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: 18-May-2023 01:59:02 CEST  Successfully opened file root://eospublic.cern.ch//eos/opendata/cms/Run2015D/DoubleEG/MINIAOD/08Jun2016-v1/10000/00387F48-342F-E611-AB5D-0CC47A4D76AC.root[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: HLTConfig has changed for this Run. . . [0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: 18-May-2023 02:01:32 CEST  Closed file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/SMS-T1tttt_mGluino-1200_mLSP-800_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/54114638-AFD5-E511-86F3-782BCB40899C.root[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: [0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: =============================================[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: [0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: MessageLogger Summary[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: [0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173:  type     category        sev    module        subroutine        count    total[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173:  ---- -------------------- -- ---------------- ----------------  -----    -----[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173:     1 XrdAdaptor           -w file_open                              2        2[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173:     2 fileAction           -s file_close                             2        2[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173:     3 fileAction           -s file_open                              4        4[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: [0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173:  type    category    Examples: run/evt        run/evt          run/evt[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173:  ---- -------------------- ---------------- ---------------- ----------------[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173:     1 XrdAdaptor           pre-events       PostProcessEvent [0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173:     2 fileAction           PostProcessEvent PostEndRun       [0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173:     3 fileAction           pre-events       pre-events       PostProcessEvent[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: [0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: Severity    # Occurrences   Total Occurrences[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: --------    -------------   -----------------[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: Warning                 2                   2[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: System                  6                   6[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: 47474[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: 47474[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: 44736[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: 92210[0m
+[31mpoet-ttbar-j524k-runpoet-template-2163607173: time="2023-05-18T02:02:00.106Z" level=info msg="sub-process exited" argo=true error="<nil>"[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: 18-May-2023 02:30:59 CEST  Closed file root://eospublic.cern.ch//eos/opendata/cms/Run2015D/DoubleEG/MINIAOD/08Jun2016-v1/10000/00387F48-342F-E611-AB5D-0CC47A4D76AC.root[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: [0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: =============================================[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: [0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: MessageLogger Summary[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: [0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687:  type     category        sev    module        subroutine        count    total[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687:  ---- -------------------- -- ---------------- ----------------  -----    -----[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687:     1 XrdAdaptor           -w file_open                              2        2[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687:     2 fileAction           -s file_close                             2        2[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687:     3 fileAction           -s file_open                              4        4[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: [0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687:  type    category    Examples: run/evt        run/evt          run/evt[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687:  ---- -------------------- ---------------- ---------------- ----------------[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687:     1 XrdAdaptor           pre-events       PostProcessEvent [0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687:     2 fileAction           PostProcessEvent PostEndRun       [0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687:     3 fileAction           pre-events       pre-events       PostProcessEvent[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: [0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: Severity    # Occurrences   Total Occurrences[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: --------    -------------   -----------------[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: Warning                 2                   2[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: System                  6                   6[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: 9507[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: 9507[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: 49607[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: 59114[0m
+[33mpoet-ttbar-j524k-runpoet-template-576723687: time="2023-05-18T02:31:20.353Z" level=info msg="sub-process exited" argo=true error="<nil>"[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: 18-May-2023 08:15:18 CEST  Closed file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/TTJets_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/043D89DE-2FCC-E511-B2E9-0025907FD442.root[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: [0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: =============================================[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: [0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: MessageLogger Summary[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: [0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291:  type     category        sev    module        subroutine        count    total[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291:  ---- -------------------- -- ---------------- ----------------  -----    -----[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291:     1 XrdAdaptor           -w file_open                              2        2[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291:     2 fileAction           -s file_close                             2        2[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291:     3 fileAction           -s file_open                              4        4[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: [0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291:  type    category    Examples: run/evt        run/evt          run/evt[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291:  ---- -------------------- ---------------- ---------------- ----------------[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291:     1 XrdAdaptor           pre-events       PostProcessEvent [0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291:     2 fileAction           PostProcessEvent PostEndRun       [0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291:     3 fileAction           pre-events       pre-events       PostProcessEvent[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: [0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: Severity    # Occurrences   Total Occurrences[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: --------    -------------   -----------------[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: Warning                 2                   2[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: System                  6                   6[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: 46767[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: 46767[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: 42754[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: 89521[0m
+[36mpoet-ttbar-j524k-runpoet-template-247339291: time="2023-05-18T08:15:41.108Z" level=info msg="sub-process exited" argo=true error="<nil>"[0m
+[35mpoet-ttbar-j524k-flattentrees-template-2771790621: --2023-05-18 06:16:04--  https://raw.githubusercontent.com/cms-opendata-analyses/PhysObjectExtractorTool/odws2022-ttbaljets-prod/PhysObjectExtractor/scripts/merge_trees.py[0m
+[35mpoet-ttbar-j524k-flattentrees-template-2771790621: Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.110.133, 185.199.109.133, ...[0m
+[35mpoet-ttbar-j524k-flattentrees-template-2771790621: Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.[0m
+[35mpoet-ttbar-j524k-flattentrees-template-2771790621: HTTP request sent, awaiting response... 200 OK[0m
+[35mpoet-ttbar-j524k-flattentrees-template-2771790621: Length: 985 [text/plain][0m
+[35mpoet-ttbar-j524k-flattentrees-template-2771790621: Saving to: ‘merge_trees.py’[0m
+[35mpoet-ttbar-j524k-flattentrees-template-2771790621: [0m
+[35mpoet-ttbar-j524k-flattentrees-template-2771790621:      0K                                                       100% 35.4M=0s[0m
+[35mpoet-ttbar-j524k-flattentrees-template-2771790621: [0m
+[35mpoet-ttbar-j524k-flattentrees-template-2771790621: 2023-05-18 06:16:04 (35.4 MB/s) - ‘merge_trees.py’ saved [985/985][0m
+[35mpoet-ttbar-j524k-flattentrees-template-2771790621: [0m
+[35mpoet-ttbar-j524k-flattentrees-template-2771790621: time="2023-05-18T06:16:11.095Z" level=info msg="sub-process exited" argo=true error="<nil>"[0m
+[33mpoet-ttbar-j524k-flattentrees-template-1622119281: --2023-05-18 06:16:29--  https://raw.githubusercontent.com/cms-opendata-analyses/PhysObjectExtractorTool/odws2022-ttbaljets-prod/PhysObjectExtractor/scripts/merge_trees.py[0m
+[33mpoet-ttbar-j524k-flattentrees-template-1622119281: Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.109.133, 185.199.110.133, 185.199.108.133, ...[0m
+[33mpoet-ttbar-j524k-flattentrees-template-1622119281: Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.109.133|:443... connected.[0m
+[33mpoet-ttbar-j524k-flattentrees-template-1622119281: HTTP request sent, awaiting response... 200 OK[0m
+[33mpoet-ttbar-j524k-flattentrees-template-1622119281: Length: 985 [text/plain][0m
+[33mpoet-ttbar-j524k-flattentrees-template-1622119281: Saving to: ‘merge_trees.py’[0m
+[33mpoet-ttbar-j524k-flattentrees-template-1622119281: [0m
+[33mpoet-ttbar-j524k-flattentrees-template-1622119281:      0K                                                       100% 27.6M=0s[0m
+[33mpoet-ttbar-j524k-flattentrees-template-1622119281: [0m
+[33mpoet-ttbar-j524k-flattentrees-template-1622119281: 2023-05-18 06:16:30 (27.6 MB/s) - ‘merge_trees.py’ saved [985/985][0m
+[33mpoet-ttbar-j524k-flattentrees-template-1622119281: [0m
+[33mpoet-ttbar-j524k-flattentrees-template-1622119281: time="2023-05-18T06:16:36.445Z" level=info msg="sub-process exited" argo=true error="<nil>"[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting vector[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading vector-1.0.0-py3-none-any.whl (170 kB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 170.4/170.4 kB 669.7 kB/s eta 0:00:00[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting hist[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading hist-2.6.3-py3-none-any.whl (36 kB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting mplhep[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading mplhep-0.3.28-py3-none-any.whl (36 kB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting coffea[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading coffea-0.7.21-py2.py3-none-any.whl (198 kB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 198.4/198.4 kB 1.5 MB/s eta 0:00:00[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Requirement already satisfied: packaging>=19 in /usr/local/venv/lib/python3.10/site-packages (from vector) (21.3)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Requirement already satisfied: numpy>=1.13.3 in /usr/local/venv/lib/python3.10/site-packages (from vector) (1.23.1)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting boost-histogram~=1.3.1[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading boost_histogram-1.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.4 MB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 3.9 MB/s eta 0:00:00[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting histoprint>=2.2.0[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading histoprint-2.4.0-py3-none-any.whl (16 kB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Requirement already satisfied: matplotlib>=3.4 in /usr/local/venv/lib/python3.10/site-packages (from mplhep) (3.5.2)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting mplhep-data[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading mplhep_data-0.0.3-py3-none-any.whl (5.8 MB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.8/5.8 MB 9.1 MB/s eta 0:00:00[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting uhi>=0.2.0[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading uhi-0.3.3-py3-none-any.whl (11 kB)[0m
+[33mpoet-ttbar-j524k-preparecoffea-template-1405840753: --2023-05-18 06:16:59--  https://raw.githubusercontent.com/HepUsfq2023/PhysObjectExtractorTool/master/PhysObjectExtractor/scripts/ntuples-gen.py[0m
+[33mpoet-ttbar-j524k-preparecoffea-template-1405840753: Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.108.133, 185.199.111.133, ...[0m
+[33mpoet-ttbar-j524k-preparecoffea-template-1405840753: Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.[0m
+[31mpoet-ttbar-j524k-flattentrees-template-657540127: --2023-05-18 06:16:59--  https://raw.githubusercontent.com/cms-opendata-analyses/PhysObjectExtractorTool/odws2022-ttbaljets-prod/PhysObjectExtractor/scripts/merge_trees.py[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting toml>=0.10.2[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)[0m
+[31mpoet-ttbar-j524k-flattentrees-template-657540127: Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.108.133, 185.199.110.133, ...[0m
+[31mpoet-ttbar-j524k-flattentrees-template-657540127: Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.[0m
+[33mpoet-ttbar-j524k-preparecoffea-template-1405840753: HTTP request sent, awaiting response... 200 OK[0m
+[33mpoet-ttbar-j524k-preparecoffea-template-1405840753: Length: 1286 (1.3K) [text/plain][0m
+[33mpoet-ttbar-j524k-preparecoffea-template-1405840753: Saving to: ‘ntuples-gen.py’[0m
+[33mpoet-ttbar-j524k-preparecoffea-template-1405840753: [0m
+[33mpoet-ttbar-j524k-preparecoffea-template-1405840753:      0K .                                                     100% 39.7M=0s[0m
+[33mpoet-ttbar-j524k-preparecoffea-template-1405840753: [0m
+[33mpoet-ttbar-j524k-preparecoffea-template-1405840753: 2023-05-18 06:17:00 (39.7 MB/s) - ‘ntuples-gen.py’ saved [1286/1286][0m
+[33mpoet-ttbar-j524k-preparecoffea-template-1405840753: [0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting fsspec[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading fsspec-2023.5.0-py3-none-any.whl (160 kB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 160.1/160.1 kB 3.5 MB/s eta 0:00:00[0m
+[31mpoet-ttbar-j524k-flattentrees-template-657540127: HTTP request sent, awaiting response... 200 OK[0m
+[31mpoet-ttbar-j524k-flattentrees-template-657540127: Length: 985 [text/plain][0m
+[31mpoet-ttbar-j524k-flattentrees-template-657540127: Saving to: ‘merge_trees.py’[0m
+[31mpoet-ttbar-j524k-flattentrees-template-657540127: [0m
+[31mpoet-ttbar-j524k-flattentrees-template-657540127:      0K                                                       100% 4.32M=0s[0m
+[31mpoet-ttbar-j524k-flattentrees-template-657540127: [0m
+[31mpoet-ttbar-j524k-flattentrees-template-657540127: 2023-05-18 06:17:00 (4.32 MB/s) - ‘merge_trees.py’ saved [985/985][0m
+[31mpoet-ttbar-j524k-flattentrees-template-657540127: [0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting cloudpickle>=1.2.3[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading cloudpickle-2.2.1-py3-none-any.whl (25 kB)[0m
+[33mpoet-ttbar-j524k-preparecoffea-template-1405840753: time="2023-05-18T06:17:00.711Z" level=info msg="sub-process exited" argo=true error="<nil>"[0m
+[33mpoet-ttbar-j524k-preparecoffea-template-1405840753: {"data": {"nominal": {"files": [{"path": "/mnt/vol/output/24132/myoutput_merged.root", "nevts": 59114}]}}, "ttbar": {"ME_var": {"files": [{"path": "/mnt/vol/output/19359/myoutput_merged.root", "nevts": 92210}], "nevts_total": 92210}, "PS_var": {"files": [{"path": "/mnt/vol/output/19949/myoutput_merged.root", "nevts": 89521}], "nevts_total": 89521}}, "single_top_t_chan": {}, "single_atop_t_chan": {}, "single_top_tW": {}, "wjets": {}}[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting tqdm>=4.27.0[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading tqdm-4.65.0-py3-none-any.whl (77 kB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 77.1/77.1 kB 1.7 MB/s eta 0:00:00[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting pyarrow>=1.0.0[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading pyarrow-12.0.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (38.9 MB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 38.9/38.9 MB 7.2 MB/s eta 0:00:00[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting uproot3>=3.14.1[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading uproot3-3.14.4-py3-none-any.whl (117 kB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.5/117.5 kB 2.4 MB/s eta 0:00:00[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting cachetools[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading cachetools-5.3.0-py3-none-any.whl (9.3 kB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting lz4[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading lz4-4.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.3 MB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 4.4 MB/s eta 0:00:00[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting pandas[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading pandas-2.0.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.3 MB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 8.3 MB/s eta 0:00:00[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting correctionlib>=2.0.0[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading correctionlib-2.2.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (421 kB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 422.0/422.0 kB 5.3 MB/s eta 0:00:00[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting awkward<2,>=1.10.3[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading awkward-1.10.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.2 MB)[0m
+[31mpoet-ttbar-j524k-flattentrees-template-657540127: time="2023-05-18T06:17:11.520Z" level=info msg="sub-process exited" argo=true error="<nil>"[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.2/12.2 MB 8.1 MB/s eta 0:00:00[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting numba>=0.56.0[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading numba-0.57.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (3.6 MB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 8.2 MB/s eta 0:00:00[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting uproot3-methods>=0.10.0[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading uproot3_methods-0.10.1-py3-none-any.whl (32 kB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Requirement already satisfied: uproot!=4.2.4,!=4.3.0,!=4.3.1,==4.*,>=4.1.6 in /usr/local/venv/lib/python3.10/site-packages (from coffea) (4.3.3)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting scipy>=1.1.0[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading scipy-1.10.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (34.4 MB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 34.4/34.4 MB 7.5 MB/s eta 0:00:00[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Requirement already satisfied: setuptools in /usr/local/venv/lib/python3.10/site-packages (from uproot!=4.2.4,!=4.3.0,!=4.3.1,==4.*,>=4.1.6->coffea) (63.2.0)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting rich[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading rich-13.3.5-py3-none-any.whl (238 kB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 238.7/238.7 kB 4.2 MB/s eta 0:00:00[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting pydantic>=1.7.3[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading pydantic-1.10.7-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 8.4 MB/s eta 0:00:00[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting click>=7.0.0[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading click-8.1.3-py3-none-any.whl (96 kB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 96.6/96.6 kB 2.3 MB/s eta 0:00:00[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Requirement already satisfied: python-dateutil>=2.7 in /usr/local/venv/lib/python3.10/site-packages (from matplotlib>=3.4->mplhep) (2.8.2)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Requirement already satisfied: cycler>=0.10 in /usr/local/venv/lib/python3.10/site-packages (from matplotlib>=3.4->mplhep) (0.11.0)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Requirement already satisfied: pyparsing>=2.2.1 in /usr/local/venv/lib/python3.10/site-packages (from matplotlib>=3.4->mplhep) (3.0.9)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Requirement already satisfied: pillow>=6.2.0 in /usr/local/venv/lib/python3.10/site-packages (from matplotlib>=3.4->mplhep) (9.2.0)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Requirement already satisfied: kiwisolver>=1.0.1 in /usr/local/venv/lib/python3.10/site-packages (from matplotlib>=3.4->mplhep) (1.4.3)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Requirement already satisfied: fonttools>=4.22.0 in /usr/local/venv/lib/python3.10/site-packages (from matplotlib>=3.4->mplhep) (4.34.4)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting llvmlite<0.41,>=0.40.0dev0[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading llvmlite-0.40.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (42.1 MB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.1/42.1 MB 7.3 MB/s eta 0:00:00[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting awkward0[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading awkward0-0.15.5-py3-none-any.whl (87 kB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.6/87.6 kB 2.3 MB/s eta 0:00:00[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting tzdata>=2022.1[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading tzdata-2023.3-py2.py3-none-any.whl (341 kB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 341.8/341.8 kB 5.1 MB/s eta 0:00:00[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Requirement already satisfied: pytz>=2020.1 in /usr/local/venv/lib/python3.10/site-packages (from pandas->coffea) (2022.1)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting typing-extensions>=4.2.0[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading typing_extensions-4.5.0-py3-none-any.whl (27 kB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Requirement already satisfied: six>=1.5 in /usr/local/venv/lib/python3.10/site-packages (from python-dateutil>=2.7->matplotlib>=3.4->mplhep) (1.16.0)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting pygments<3.0.0,>=2.13.0[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading Pygments-2.15.1-py3-none-any.whl (1.1 MB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 6.7 MB/s eta 0:00:00[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting markdown-it-py<3.0.0,>=2.2.0[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading markdown_it_py-2.2.0-py3-none-any.whl (84 kB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 84.5/84.5 kB 1.9 MB/s eta 0:00:00[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Collecting mdurl~=0.1[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Installing collected packages: uhi, tzdata, typing-extensions, tqdm, toml, scipy, pygments, pyarrow, mplhep-data, mdurl, lz4, llvmlite, fsspec, cloudpickle, click, cachetools, boost-histogram, awkward0, vector, uproot3-methods, pydantic, pandas, numba, markdown-it-py, histoprint, awkward, uproot3, rich, mplhep, hist, correctionlib, coffea[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Attempting uninstall: pygments[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:     Found existing installation: Pygments 2.12.0[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:     Uninstalling Pygments-2.12.0:[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:       Successfully uninstalled Pygments-2.12.0[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   Attempting uninstall: awkward[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:     Found existing installation: awkward 1.8.0[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:     Uninstalling awkward-1.8.0:[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:       Successfully uninstalled awkward-1.8.0[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Successfully installed awkward-1.10.3 awkward0-0.15.5 boost-histogram-1.3.2 cachetools-5.3.0 click-8.1.3 cloudpickle-2.2.1 coffea-0.7.21 correctionlib-2.2.2 fsspec-2023.5.0 hist-2.6.3 histoprint-2.4.0 llvmlite-0.40.0 lz4-4.3.2 markdown-it-py-2.2.0 mdurl-0.1.2 mplhep-0.3.28 mplhep-data-0.0.3 numba-0.57.0 pandas-2.0.1 pyarrow-12.0.0 pydantic-1.10.7 pygments-2.15.1 rich-13.3.5 scipy-1.10.1 toml-0.10.2 tqdm-4.65.0 typing-extensions-4.5.0 tzdata-2023.3 uhi-0.3.3 uproot3-3.14.4 uproot3-methods-0.10.1 vector-1.0.0[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: [0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: [notice] A new release of pip available: 22.1.2 -> 23.1.2[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: [notice] To update, run: pip install --upgrade pip[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Cloning into 'workshop2022-lesson-ttbarljetsanalysis-payload'...[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: processes in fileset: ['data__nominal', 'ttbar__ME_var', 'ttbar__PS_var'][0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: Traceback (most recent call last):[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:   File "/code/workshop2022-lesson-ttbarljetsanalysis-payload/coffeaAnalysis_ttbarljets.py", line 270, in <module>[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587:     print(f"\nexample of information in fileset:\n {{\n  'files': [{fileset['ttbar__nominal']['files'][0]}, ...],")[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: KeyError: 'ttbar__nominal'[0m
+[31mpoet-ttbar-j524k-runcoffea-template-381983587: time="2023-05-18T06:17:55.409Z" level=info msg="sub-process exited" argo=true error="<nil>"[0m
